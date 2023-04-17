@@ -2,11 +2,9 @@
 #
 # Ansible managed
 #
-
+name: Ansible Graphviz
 on:
   - push
-
-name: Ansible Graphviz
 
 jobs:
   build:
