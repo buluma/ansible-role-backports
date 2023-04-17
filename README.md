@@ -4,7 +4,7 @@ Enable backports on Debian
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backports/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-backports/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-backports)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/backports)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/backports)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/releases/)|
+|[![github](https://github.com/buluma/ansible-role-backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backports/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-backports/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-backports)|[![quality](https://img.shields.io/ansible/quality/62010)](https://galaxy.ansible.com/buluma/backports)|[![downloads](https://img.shields.io/ansible/role/d/62010)](https://galaxy.ansible.com/buluma/backports)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
