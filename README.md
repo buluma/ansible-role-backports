@@ -20,6 +20,22 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
         name: "buluma.backports"
 ```
 
+The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-backports/blob/master/molecule/default/prepare.yml):
+
+```yaml
+---
+- name: prepare
+  hosts: all
+  become: yes
+  gather_facts: no
+  vars:
+    python_pip_modules:
+      - name: pexpect
+
+  roles:
+    - role: buluma.bootstrap
+```
+
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
 
 ## [Role Variables](#role-variables)
@@ -35,6 +51,13 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 
 - pip packages listed in [requirements.txt](https://github.com/buluma/ansible-role-backports/blob/master/requirements.txt).
 
+## [State of used roles](#state-of-used-roles)
+
+The following roles are used to prepare a system. You can prepare your system in another way.
+
+| Requirement | GitHub | GitLab |
+|-------------|--------|--------|
+|[buluma.bootstrap](https://galaxy.ansible.com/buluma/bootstrap)|[![Build Status GitHub](https://github.com/buluma/ansible-role-bootstrap/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-bootstrap/actions)|[![Build Status GitLab](https://gitlab.com/shadowwalker/ansible-role-bootstrap/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-bootstrap)|
 
 ## [Context](#context)
 
