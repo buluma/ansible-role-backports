@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Enable backports on Debian
+  homepage: https://buluma.github.io/
+  topics: backports, debian, ansible, molecule, tox, playbook
