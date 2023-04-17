@@ -1,6 +1,6 @@
 # [backports](#backports)
 
-Enable backports on Debian
+Enable backports on Debian.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
