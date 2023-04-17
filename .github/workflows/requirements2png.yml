@@ -10,13 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-20.04
     steps:
-      - name: checkout
+      - name: Checkout.
         uses: actions/checkout@v3
         with:
           path: ${{ github.repository }}
       - name: create png
         uses: buluma/graphviz-action@1.0.0
-      - name: Commit files
+      - name: Commit files.
         run: |
           cd ${{ github.repository }}
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
