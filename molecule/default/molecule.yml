@@ -12,7 +12,7 @@ lint: |
   yamllint .
   ansible-lint
 driver:
-  name: delegated
+  name: docker
 platforms:
   - name: "backports-${image:-fedora}-${tag:-latest}${TOX_ENVNAME}"
     image: "${namespace:-buluma}/${image:-fedora}:${tag:-latest}"
