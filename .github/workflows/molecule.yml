@@ -7,11 +7,22 @@ name: Ansible Molecule
 
 on:
   push:
+    branches:
+      - master
+      - main
+      - testing
+    paths-ignore:
+      - '**/README.md'
+      - '**/CHANGELOG.md'
     tags_ignore:
       - '*'
   pull_request:
   schedule:
     - cron: '3 2 2 * *'
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
 
 jobs:
   lint:
@@ -29,10 +40,8 @@ jobs:
       fail-fast: false
       matrix:
         config:
-          - image: "debian"
-            tag: "bullseye"
-          - image: "debian"
-            tag: "bookworm"
+          - image: "debian-systemd"
+            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v3
@@ -43,7 +52,7 @@ jobs:
       - name: parse apparmor for mysql
         run: sudo apparmor_parser -R /etc/apparmor.d/usr.sbin.mysqld
       - name: molecule
-        uses: buluma/molecule-action@v5.0.4
+        uses: buluma/molecule-action@v5.0.7
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
