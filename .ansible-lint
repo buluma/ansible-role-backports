@@ -2,11 +2,11 @@
 #
 # Ansible managed
 #
-  - ./molecule/default/collections.yml
-  - ./.tox
-  - ./.cache
-  - ./.github
-  - ./requirements.yml
+  - molecule/default/collections.yml
+  - .tox
+  - .cache
+  - .github
+  - requirements.yml
 
 skip_list:
   - yaml[truthy]

@@ -1,10 +1,10 @@
-# [backports](#backports)
+# [Ansible role backports](#backports)
 
 Enable backports on Debian
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backports/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-backports/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-backports)|[![quality](https://img.shields.io/ansible/quality/62010)](https://galaxy.ansible.com/buluma/backports)|[![downloads](https://img.shields.io/ansible/role/d/62010)](https://galaxy.ansible.com/buluma/backports)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/pulls/)|
+|GitHub|GitLab|Downloads|Version|Issues|Pull Requests|
+|------|------|-------|-------|------|-------------|
+|[![github](https://github.com/buluma/ansible-role-backports/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-backports/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-backports/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-backports)|[![downloads](https://img.shields.io/ansible/role/d/4654)](https://galaxy.ansible.com/buluma/backports)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-backports.svg)](https://github.com/buluma/ansible-role-backports/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
